@@ -2,8 +2,6 @@ from flask import Flask, render_template, request
 
 from threading import Thread
 
-import main
-
 
 application = Flask('')
 app = application
@@ -42,5 +40,3 @@ def keep_alive():
     t = Thread(target=run)
 
     t.start()
-    
-keep_alive()

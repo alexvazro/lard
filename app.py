@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 
 from threading import Thread
 
+import main
+
 
 application = Flask('')
 app = application

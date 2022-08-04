@@ -21,9 +21,7 @@ def form():
 
 @app.route('/restart')
 def restart():
-  import main
-  app.run(host='0.0.0.0',port=8080)
-  return "done"
+    return "done"
 
 
 @app.route('/next', methods = ["POST"])

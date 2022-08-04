@@ -21,6 +21,7 @@ def form():
 
 @app.route('/restart')
 def restart():
+    def run()
     return "done"
 
 

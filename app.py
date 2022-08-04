@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import os
-from app import keep_alive
+from web import keep_alive
 from message_commands import main_on_message
 import functions_db
 

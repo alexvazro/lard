@@ -19,6 +19,11 @@ def home():
 def form():
     return render_template("form.html")
 
+@app.route('/restart')
+def restart
+  import main
+  app.run(host='0.0.0.0',port=8080)
+
 
 @app.route('/next', methods = ["POST"])
 def next():

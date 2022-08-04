@@ -2,8 +2,6 @@ from flask import Flask, render_template, request
 
 from threading import Thread
 
-import main
-
 
 application = Flask('')
 app = application
@@ -21,10 +19,6 @@ def home():
 def form():
     return render_template("form.html")
 
-@app.route('/restart')
-def restart():
-    def run()
-    return "done"
 
 
 @app.route('/next', methods = ["POST"])
@@ -37,7 +31,6 @@ def next():
 
 
 def run():
-  import main
   app.run(host='0.0.0.0',port=8080)
 
 

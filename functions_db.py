@@ -1,6 +1,5 @@
 import pymongo
 import shop_
-import requests
 import json
 from urllib import parse, request
 import os

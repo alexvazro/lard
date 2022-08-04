@@ -20,7 +20,7 @@ def form():
     return render_template("form.html")
 
 @app.route('/restart')
-def restart
+def restart():
   import main
   app.run(host='0.0.0.0',port=8080)
 

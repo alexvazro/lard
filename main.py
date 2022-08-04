@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import os
-from web import keep_alive
+#from app import keep_alive
 from message_commands import main_on_message
 import functions_db
 
@@ -34,5 +34,5 @@ main_on_message(client, prev_mess)
 
 
 #uptime robot to keep bot alive
-keep_alive()
+#keep_alive()
 client.run(os.getenv('TOKEN'))

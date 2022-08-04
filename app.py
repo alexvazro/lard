@@ -2,8 +2,6 @@ from flask import Flask, render_template, request
 
 from threading import Thread
 
-import main
-
 
 application = Flask('')
 app = application
@@ -32,7 +30,7 @@ def next():
 
 
 def run():
-
+  import main
   app.run(host='0.0.0.0',port=8080)
 
 

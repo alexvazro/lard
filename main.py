@@ -5,8 +5,6 @@ from app import keep_alive
 from message_commands import main_on_message
 import functions_db
 
-quit()
-
 prev_mess = ""
 
 #IF IP TIME OUT/TEMP BAN -- TYPE "kill 1" IN THE SHELL
